@@ -1,4 +1,4 @@
-// Crear un objeto con informaciogitn de personas
+// Crear un objeto con informacion de personas
 var persona1 = { nombre: "Juan", edad: 25, ciudad: "Madrid" };
 var persona2 = { nombre: "Ana", edad: 30, ciudad: "Barcelona" };
 var persona3 = { nombre: "Luis", edad: 28, ciudad: "Sevilla" };
@@ -29,7 +29,7 @@ if (personaEncontrada) {
   alert("Persona no encontrada");
 }
 
-// Filtrar personas mayores de 25 años utilizando el método filter
+// Filtrar personas mayores de 25 años utilizando el metodo filter
 var personasMayores = personas.filter(function (persona) {
   return persona.edad > 25;
 });
